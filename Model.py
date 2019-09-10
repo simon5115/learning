@@ -1,10 +1,5 @@
 import numpy as np
 
-'''
-提供了三种函数，补充tanh 函数
-'''
-
-
 def cross_entropy(y_hat, y):
     return np.nan_to_num(-np.mean(np.log(y_hat) * y))
 
